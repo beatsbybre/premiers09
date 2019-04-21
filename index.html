@@ -40,7 +40,7 @@
 						
 						<hr />
 						<h2>RSVP</h2>
-						<form method="post" action="#">
+						<form action="POST" data-netlify="true">
 							<div class="fields">
 									<div class="field">
 											<select name="member" id="member">
@@ -91,16 +91,13 @@
 										<input type="radio" id="avail_no" name="avail" /><label for="avail_no">No</label>
 									</div>
 								<div class="field">
-									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+									<div data-netlify-recaptcha="true"></div>
 								</div>
-								
-							</div>
-							<ul class="actions special">
-								<li><a href="#" class="button">Send RSVP</a></li>
+								<ul class="actions">
+								<li><input type="submit" value="Send RSVP" class="button primary">Send RSVP</a></li>
 							</ul>
 						</form>
 						<hr />
-						-->
 						<!--
 						<footer>
 							<ul class="icons">
