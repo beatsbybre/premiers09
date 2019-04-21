@@ -40,57 +40,76 @@
 						
 						<hr />
 						<h2>RSVP</h2>
+						<form name="contact" method="POST" data-netlify="true">
+							<p>
+							  <label>Your Name: <input type="text" name="name" /></label>   
+							</p>
+							<p>
+							  <label>Your Email: <input type="email" name="email" /></label>
+							</p>
+							<p>
+							  <label>Your Role: <select name="role[]" multiple>
+								<option value="leader">Leader</option>
+								<option value="follower">Follower</option>
+							  </select></label>
+							</p>
+							<p>
+							  <label>Message: <textarea name="message"></textarea></label>
+							</p>
+							<p>
+							  <button type="submit">Send</button>
+							</p>
+						  </form>
+						<!--
 						<form action="POST" data-netlify="true">
-							<div class="fields">
-									<div class="field">
-											<select name="member" id="member">
-												<option value="" disabled selected>Select Name</option>
-												<option value="3">Mark Rootsey</option>
-												<option value="4">Nathan Kinch</option>
-												<option value="6">Shaun Mugavin</option>
-												<option value="7">Hayden Wilson</option>
-												<option value="8">Damian Bonney</option>
-												<option value="10">Paul Shelton</option>
-												<option value="11">Kent Abey</option>
-												<option value="13">Ryan Holman</option>
-												<option value="14">Austin Lucy</option>
-												<option value="15">Jacob Gough</option>
-												<option value="16">Ben Gibson</option>
-												<option value="17">Sam Brown</option>
-												<option value="18">Brett Connell</option>
-												<option value="19">Nick Clark</option>
-												<option value="20">Mark Kimball</option>
-												<option value="23">Alistair Nash</option>
-												<option value="25">Tyson Upton</option>
-												<option value="26">Nic Tomlinson</option>
-												<option value="27">David Lillico</option>
-												<option value="29">Sam Faure</option>
-												<option value="49">Matthew Logan</option>
-												<option value="55">Jarrod Price</option>
-												<option value="00">Coaching Staff</option>
-		
-											</select>
-										</div>
-								<div class="field">
-									<input type="email" name="email" id="email" placeholder="Email" />
-								</div>
-								
-								<!--<div class="field">
-									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-								</div>
-								<div class="field">
-									<input type="text" name="first-name" id="first-name" placeholder="Name" />
-								</div>
-								<div class="field">
-										<input type="text" name="last-name" id="last-name" placeholder="Name" />
-									</div>
-								-->
-								<div class="field">
-										<label>Are You Available For Dinner, 7pm Start Friday, August 2nd, 2019, Brisbane City Location?</label>
-										<input type="radio" id="avail_yes" name="avail" /><label for="avail_yes">Yes</label>
-										<input type="radio" id="avail_no" name="avail" /><label for="avail_no">No</label>
-									</div>
-								<div class="field">
+						<div class="fields">
+						<div class="field">
+						<select name="member" id="member">
+						<option value="" disabled selected>Select Name</option>
+						<option value="3">Mark Rootsey</option>
+						<option value="4">Nathan Kinch</option>
+						<option value="6">Shaun Mugavin</option>
+						<option value="7">Hayden Wilson</option>
+						<option value="8">Damian Bonney</option>
+						<option value="10">Paul Shelton</option>
+						<option value="11">Kent Abey</option>
+						<option value="13">Ryan Holman</option>
+						<option value="14">Austin Lucy</option>
+						<option value="15">Jacob Gough</option>
+						<option value="16">Ben Gibson</option>
+						<option value="17">Sam Brown</option>
+						<option value="18">Brett Connell</option>
+						<option value="19">Nick Clark</option>
+						<option value="20">Mark Kimball</option>
+						<option value="23">Alistair Nash</option>
+						<option value="25">Tyson Upton</option>
+						<option value="26">Nic Tomlinson</option>
+						<option value="27">David Lillico</option>
+						<option value="29">Sam Faure</option>
+						<option value="49">Matthew Logan</option>
+						<option value="55">Jarrod Price</option>
+						<option value="00">Coaching Staff</option>
+						</select>
+						</div>
+						<div class="field">
+						<input type="email" name="email" id="email" placeholder="Email" />
+						</div>
+						<div class="field">
+						<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+						</div>
+						<div class="field">
+						<input type="text" name="first-name" id="first-name" placeholder="Name" />
+						</div>
+						<div class="field">
+						<input type="text" name="last-name" id="last-name" placeholder="Name" />
+						</div>
+						-->
+						<div class="field">
+						<label>Are You Available For Dinner, 7pm Start Friday, August 2nd, 2019, Brisbane City Location?</label>
+						<input type="radio" id="avail_yes" name="avail" /><label for="avail_yes">Yes</label>
+						<input type="radio" id="avail_no" name="avail" /><label for="avail_no">No</label>
+						</div>
+						<div class="field">
 									<div data-netlify-recaptcha="true"></div>
 								</div>
 								<ul class="actions special">
@@ -98,6 +117,7 @@
 									</ul>
 						</form>
 						<hr />
+						-->
 						<!--
 						<footer>
 							<ul class="icons">
