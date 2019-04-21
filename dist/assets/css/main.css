@@ -116,7 +116,7 @@
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(250, 30, 30, 0.1) 5%, rgba(19, 18, 19, 0.5)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(250, 30, 30, 0.1) 5%, rgba(19, 18, 19, 0.5)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(250, 30, 30, 0.1) 5%, rgba(19, 18, 19, 0.5)), url("../../images/bg.jpg");
-		background-repeat: repeat,			no-repeat,			no-repeat;
+		background-repeat: repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
 		background-attachment: fixed,			fixed,				fixed;
